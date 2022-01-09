@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GdscFragment">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/info_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/react_toolbar"
+            android:elevation="3dp"
+
+            app:itemRippleColor="@android:color/transparent"
+            app:labelVisibilityMode="unlabeled">
+
+            <RelativeLayout
+                android:id="@+id/frame_toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_gdsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:text="@string/str_gdsc"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="320dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ic_gdsc" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_gdsc"
+                    android:textColor="@color/black"
+                    android:text="@string/str_tcoer" />
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:id="@+id/ly_custom_line_gdsc"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_below="@+id/info_toolbar">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/custom_line" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/ry_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="24dp"
+            android:layout_below="@+id/ly_custom_line_gdsc"
+            >
+        <TextView
+
+            android:id="@+id/tv_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_upcoming"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/black"
+
+
+            />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ly_up_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="24dp"
+            android:paddingRight="16dp"
+            android:layout_below="@id/ry_up">
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rc_event_up"/>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

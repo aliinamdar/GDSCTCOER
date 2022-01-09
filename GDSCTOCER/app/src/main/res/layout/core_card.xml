@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_core"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_width="2dp" />
+
+        <TextView
+            android:id="@+id/core_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/iv_core"
+
+            android:paddingLeft="16dp"
+            android:text="@string/title1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/core_Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/core_title"
+            android:layout_toRightOf="@id/iv_core"
+            android:paddingStart="16dp"
+            android:text="@string/event_description"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <ImageButton
+            android:id="@+id/core_linkedin"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_below="@+id/core_Desc"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@id/iv_core"
+            android:outlineAmbientShadowColor="@color/black"
+            android:padding="8dp"
+            android:paddingLeft="16dp"
+            android:src="@drawable/ic_linkedin_app" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

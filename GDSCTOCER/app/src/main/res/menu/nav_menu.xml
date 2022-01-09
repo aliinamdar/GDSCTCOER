@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_info"
+        android:title="Info" />
+    <item
+        android:id="@+id/nav_gdsc"
+        android:icon="@drawable/ic_gdsc"
+        android:title="gdsc" />
+    <item
+        android:id="@+id/nav_community"
+        android:icon="@drawable/ic_group"
+        android:title="Community" />
+</menu>

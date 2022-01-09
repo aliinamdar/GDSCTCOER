@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    tools:context=".InfoFragment">
+
+  <RelativeLayout
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+
+
+      <androidx.appcompat.widget.Toolbar
+
+          android:id="@+id/info_toolbar"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/react_toolbar"
+          android:elevation="3dp"
+          app:itemRippleColor="@android:color/transparent"
+          app:labelVisibilityMode="unlabeled">
+
+          <FrameLayout
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:id="@+id/frame_toolbar"
+              android:layout_gravity="center">
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical|center_horizontal"
+                  android:paddingEnd="16dp"
+                  android:text="@string/About_us"
+                  android:textColor="@color/black"
+                  android:textSize="20sp"
+                  android:textStyle="bold" />
+
+              <ImageView
+                  android:layout_width="75dp"
+                  android:layout_height="75dp"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginStart="300dp"
+                  android:contentDescription="@string/todo"
+                  android:src="@drawable/ic_gdsc" />
+
+          </FrameLayout>
+
+
+
+      </androidx.appcompat.widget.Toolbar>
+      <LinearLayout
+          android:id="@+id/ly_custom_line"
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:layout_marginStart="0dp"
+          android:layout_marginEnd="0dp"
+          android:layout_below="@+id/info_toolbar">
+
+          <View
+              android:layout_width="match_parent"
+              android:layout_height="2dp"
+              android:layout_marginStart="0dp"
+              android:layout_marginEnd="0dp"
+              android:background="@drawable/custom_line" />
+
+      </LinearLayout>
+
+
+      <RelativeLayout
+          android:id="@+id/rl_tv"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/info_toolbar"
+          android:orientation="horizontal"
+          android:paddingLeft="16dp"
+          android:paddingTop="24dp"
+          android:paddingRight="16dp">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="@string/gdsc_desc"
+              android:textColor="@color/black"
+              android:textSize="16sp" />
+
+
+      </RelativeLayout>
+      <LinearLayout
+          android:id="@+id/ly_connect"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="24dp"
+          android:layout_below="@+id/rl_tv"
+          >
+        <TextView
+            android:id="@+id/tv_connect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Connect_us"
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+      </LinearLayout>
+      <LinearLayout
+          android:id="@+id/ly_social"
+          android:layout_width="240dp"
+          android:layout_height="wrap_content"
+          android:paddingLeft="16dp"
+          android:paddingRight="16dp"
+          android:paddingTop="24dp"
+          android:backgroundTint="@color/white"
+          android:layout_below="@id/ly_connect">
+
+          <ImageButton
+              android:id="@+id/btn_instagram"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_weight="0.7"
+              android:background="@color/white"
+              android:src="@drawable/ic_instagram_round_color"
+               />
+          <ImageButton
+              android:id="@+id/btn_linkedin"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_weight="0.7"
+              android:background="@color/white"
+              android:src="@drawable/ic_linkedin_app"/>
+          <ImageButton
+              android:id="@+id/btn_whatsapp"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_weight="0.7"
+              android:background="@color/white"
+              android:src="@drawable/ic_wa_whatsapp"/>
+          <ImageButton
+              android:id="@+id/btn_discord"
+              android:layout_width="30dp"
+              android:layout_height="34dp"
+              android:layout_weight="0.7"
+              android:background="@color/white"
+              android:src="@drawable/ic_discord"/>
+          <ImageButton
+              android:id="@+id/btn_gmail"
+              android:layout_width="30dp"
+              android:layout_height="23dp"
+              android:layout_weight="0.7"
+              android:background="@color/white"
+              android:src="@drawable/ic_gmail"/>
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/ly_website"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:paddingRight="16dp"
+          android:paddingLeft="16dp"
+          android:paddingTop="24dp"
+          android:layout_below="@id/ly_social">
+
+          <Button
+              android:paddingStart="16dp"
+              android:id="@+id/btn_website"
+              style="?attr/materialButtonOutlinedStyle"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/website"
+              android:textColor="#FF8A8BEF"
+              app:strokeColor="#FF8A8BEF"
+              android:textAllCaps="false"
+
+              />
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/ly_join"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/ly_website"
+          android:orientation="horizontal"
+          android:paddingLeft="16dp"
+          android:paddingTop="24dp"
+          android:paddingRight="16dp">
+
+          <TextView
+              android:id="@+id/tv_join"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical|center_horizontal"
+              android:text="@string/community"
+              android:textColor="@color/black"
+              android:textSize="24sp"
+              android:textStyle="bold"
+
+              />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/ly_join_us"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/ly_join"
+          android:orientation="horizontal"
+          android:paddingLeft="16dp"
+          android:paddingTop="24dp"
+          android:paddingRight="16dp">
+
+          <TextView
+              android:id="@+id/tv_join_us"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical|center_horizontal"
+              android:text="@string/our_community"
+              android:textColor="@color/black"
+              android:textSize="16sp" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/ly_join_us_btn"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/ly_join_us"
+          android:orientation="horizontal"
+          android:paddingLeft="16dp"
+          android:paddingTop="24dp"
+          android:paddingRight="16dp">
+
+          <Button
+              android:id="@+id/btn_bm"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:background="@drawable/btn_bc_bg"
+              android:paddingStart="16dp"
+              android:textColor="#FFFF"
+              android:text="@string/btn_bc"
+              android:textAllCaps="false"
+
+              />
+
+
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/ly_tv_recycler"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/ly_join_us_btn"
+          android:orientation="horizontal"
+          android:paddingLeft="16dp"
+          android:paddingTop="24dp"
+          android:paddingRight="16dp">
+
+          <TextView
+
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_vertical|center_horizontal"
+              android:text="@string/str_session"
+              android:textColor="@color/black"
+              android:textSize="24sp"
+              android:textStyle="bold"
+
+              />
+      </LinearLayout>
+      <LinearLayout
+          android:id="@+id/ly_event_recycler"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:paddingLeft="16dp"
+          android:paddingTop="24dp"
+          android:paddingRight="16dp"
+          android:layout_below="@id/ly_tv_recycler">
+          <androidx.recyclerview.widget.RecyclerView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/rc_event"/>
+
+      </LinearLayout>
+  </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">GDSCTCOER</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gdsc">Google Developers Student Club \n TCOER</string>
+    <string name="About_us">About Us</string>
+    <string name="google_developer">Google Developer Student Clubs are community groups for college and university students interested in Google developer technologies. By being a part of this club, students will get to learn about a range of technical topics and gain new skills through hands-on workshops, events, talks, and project-building activities. Let\'s connect, learn and grow together @GDSC-Trinity College of Engineering and Research, Pune.</string>
+    <string name="todo">TODO</string>
+    <string name="Connect_us">Connect With Us On</string>
+    <string name="website">Our Official Website</string>
+    <string name="community">Join Our Community</string>
+    <string name="our_community">Learn about a range of technical topic gain new skills through hands-on workshop events, talk,and project -buildings activities.</string>
+    <string name="btn_bc">Become a Member</string>
+    <string name="str_connect">Connect</string>
+    <string name="str_learn">Learn</string>
+    <string name="str_grow">Grow</string>
+    <string name="str_session">Session We Conduct</string>
+    <string name="str_gdsc">Google Developer Student Club</string>
+    <string name="str_tcoer">Trinity College of Engineering &amp; Research, Pune</string>
+    <string name="str_upcoming">Upcoming Events</string>
+    <string name="decrption_event">GDSC TCOER is back with the second session of Android Study Jams The stepping stone for your Android Development Journey. In this session we\'ll be continuing with the basics of Kotlin and Introduction to Android Development. This session is the second one in the series of several Study Jams to be organized by GDSC TCOER. We assure you that at the end of the Workshop you\'ll end up having a collection of Wonderful and functional apps that will help you start your Android Journey with a Bang!! If you haven\'t registered yet click on the RSVP button and reserve your spot for the adventurous journey of Learning Android Development using Kotlin.!!!</string>
+    <string name="event_title">Title</string>
+    <string name="enent_date">Date</string>
+    <string name="event_description">Description</string>
+    <string name="_04_01_2022">04/01/2022</string>
+    <string name="event_details">Event Details</string>
+    <string name="title1">Title</string>
+    <string name="date">04/01/2022 04:00 PM</string>
+    <string name="rsvp_btn">RSVP</string>
+    <string name="noti_title">Title</string>
+    <string name="message">Message</string>
+    <string name="meet_our_core_team">Meet Our Core Team</string>
+    <string name="str_core">We at Google Developer Student Club TCOER believe that what a strong group of people can accomplish together is much larger and far greater than what an individual can achieve alone. Our core team conducts various meaningful events to share knowledge and opportunities with our club members which helps them in exploring different technical domains and realising their true interest and potential.</string>
+    <string name="gdsc_desc">Google Developer Student Clubs are community groups for college and university students interested in Google developer technologies.This program helps students bridge the gap between theory and practice through various events .By joining a GDSC, students grow their knowledge in a peer-to-peer learning environment and build solutions for local businesses and their community.GDSC program is supported by Google Developers. Let\'s Connect, Learn and Grow Together @GDSC TCOER</string>
+    <string name="str_time">11/01/2022 4:00PM</string>
+
+
+</resources>
