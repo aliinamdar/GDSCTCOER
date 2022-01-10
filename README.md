@@ -21,7 +21,7 @@ This application has a simple yet interactive interface so that the member's cou
 - `fragments` : Fragment to improve app respone time.
 - `Bottom Navigation Bar` : To switch to different fragments easily.
 - `Firebase` : For Back-end.
-- `Firebase Cloud Messaging` : Providing notification when the event is added and reminding before the sechedule time.
+- `Firebase Cloud Messaging` : Providing notification when the event is added and reminding before the schedule time.
 
 ## Application Screenshots
 
