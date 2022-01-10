@@ -18,7 +18,7 @@ This application has a simple yet interactive interface so that the member's cou
 - `Linear Layout`: Which align the element in the single direction vertically or horizontally.
 - `Relative Layout`: Which  specified as relative to sibling elements (such as to the left-of or below another view) .
 - `Recycler View` : For displaying all the events and the information of the club.
-- `fragments` : Fragment to improve app respone time.
+- `fragments` : Fragment to improve app response time.
 - `Bottom Navigation Bar` : To switch to different fragments easily.
 - `Firebase` : For Back-end.
 - `Firebase Cloud Messaging` : Providing notification when the event is added and reminding before the schedule time.
