@@ -32,6 +32,7 @@ This application has a simple yet interactive interface so that the member's cou
 ![4](https://user-images.githubusercontent.com/51884003/148765466-42e9cd7e-f7dc-4fa6-bfcb-94fa74ac0368.JPG)
 
 ## Application Link [LINK](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
+## Application Screenshots [LINK](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
 
 ## Future Scope 
 This app is used by the Core Team members of GDSC TCOER right now. After proper testing is performed this application will be deployed on Google Play Store. We are planning to integrate chat sessions where the members of the club can interact with the core team members.
