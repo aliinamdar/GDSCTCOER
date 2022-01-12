@@ -1,11 +1,12 @@
 ## **Android Study Jams**
 
 ### **GDSCTCOER**
-<p><p> A app that help the memeber's to keep a track on the Upcoming Events in the GDSCTCOER Club.<br></p>
+<p><p>An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.<br></p>
 
 ## **Problem Statements** 
 
-During pandemic, Everything is virtual so member's are  unaware of the  ongoing activities in the club. Through this app the  member's can easy track on the upcoming events, club activities, recieve notification  when the event is added and receive reminder notification before the schedule time of the event.
+An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.
+
 
 ## **Proposed Solution**
 
@@ -30,12 +31,10 @@ This application has a simple yet interactive interface so that the member's cou
 ![3](https://user-images.githubusercontent.com/51884003/148765460-71c13ab0-478e-40c0-a466-4784f39637d1.JPG)
 ![4](https://user-images.githubusercontent.com/51884003/148765466-42e9cd7e-f7dc-4fa6-bfcb-94fa74ac0368.JPG)
 
-## Application Link [LINK](https://drive.google.com/file/d/1-tmeB6EdPXFPXNP6CpwMmAVx-PUlThEW/view)
+## Application Link [LINK](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
 
 ## Future Scope 
-This app is used by the Core Team member's of the GDSCTCOER right now. After the proper testing  is done the application will be deploy on Google Play Store. We are plain to integrate chat session where the member's of the club can interacts with the core team member's.
-
-
+This app is used by the Core Team members of GDSC TCOER right now. After proper testing is performed this application will be deployed on Google Play Store. We are planning to integrate chat sessions where the members of the club can interact with the core team members.
 
 
 
