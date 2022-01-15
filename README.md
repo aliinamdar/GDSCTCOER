@@ -2,6 +2,7 @@
 
 ### **GDSCTCOER**
 
+An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.
 
 ## **Problem Statements** 
 
