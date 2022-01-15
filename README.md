@@ -6,7 +6,7 @@ An application that helps the members of our GDSC to keep a track on all the Upc
 
 ## **Problem Statements** 
 
-During pandemic, everything is virtual so members are unaware of the on-going activities in the club. Through this app all the club members can easily keep track on the upcoming events, club activities, receive notification when the event is added and receive reminder notification before the schedule time of the event
+During pandemic, everything is virtual so members are unaware of the on-going activities in the club. Through this app all the club members can easily keep track on the upcoming events, club activities, receive notification when the event is added and receive reminder notification before the scheduled time of the event.
 
 ## **Proposed Solution**
 
@@ -35,7 +35,7 @@ This application has a simple yet interactive interface so that the members coul
 ## Application Screenshots [Application Screenshots](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
 
 ## Future Scope 
-This app is used by the Core Team members of GDSC TCOER right now. After proper testing is performed this application will be deployed on Google Play Store. We are planning to integrate chat sessions where the members of the club can interact with the core team members.
+This app is used by the Core Team members of GDSC TCOER right now. After proper testing, this application will be deployed on Google Play Store. We are planning to integrate chat sessions where the members of the club can interact with the core team members.
 
 
 
