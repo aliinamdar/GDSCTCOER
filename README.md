@@ -7,7 +7,6 @@ An application that helps the members of our GDSC to keep a track on all the Upc
 
 An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.
 
-
 ## **Proposed Solution**
 
 We have designed a app "GDSCTCOER" that helps the member's of the club to track the upcoming events. This application was build by keep in mind that the member's should aware of the upcomming events. We have use a Firebase firestore to store the data in the database and firebase storage from storing the image. We have also included some feature's like member's can easy navigate to RSVP link of the Upcoming events by click on the RSVP button,  after the events is completed the watch button will appear it will contain the recording of the event, member's will receive notification whenever the event will added from the back-end and before the time of sechduled event student will recieve a reminder notification . This contains the all information of the club with the social media handle and the information of all the core Team Member's with there social media handle where they can easy connect to the club.  
