@@ -10,7 +10,7 @@ During pandemic, everything is virtual so members are unaware of the on-going ac
 
 ## **Proposed Solution**
 
-We have designed an app "GDSCTCOER" that helps the members of our club to track all the upcoming events. We have used a Firebase firestore to store the data in the database and firebase storage for storing the image. We have also included some features like members can easily navigate to RSVP link of the Upcoming events by clicking on the RSVP button, after the event is completed the watch button will appear which contains the recording of the event, members will receive notification whenever a new event will be added from the back-end and before the time of scheduled event student will receive a reminder notification. This contains all the information related to our club with all our social media handles linked and the information of the entire core Team with their social media handles so that club members can easily connect with them.
+We have designed an app **GDSCTCOER** that helps the members of our club to track all the upcoming events. We have used a Firebase firestore to store the data in the database and firebase storage for storing the image. We have also included some features like members can easily navigate to RSVP link of the Upcoming events by clicking on the RSVP button, after the event is completed the watch button will appear which contains the recording of the event, members will receive notification whenever a new event will be added from the back-end and before the time of scheduled event student will receive a reminder notification. This contains all the information related to our club with all our social media handles linked and the information of the entire core Team with their social media handles so that club members can easily connect with them.
 
 ## **Functionality & Concepts used**
 
@@ -31,8 +31,8 @@ This application has a simple yet interactive interface so that the members coul
 ![3](https://user-images.githubusercontent.com/51884003/148765460-71c13ab0-478e-40c0-a466-4784f39637d1.JPG)
 ![4](https://user-images.githubusercontent.com/51884003/148765466-42e9cd7e-f7dc-4fa6-bfcb-94fa74ac0368.JPG)
 
-## Application Link [LINK](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
-## Application Screenshots [LINK](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
+## Application Link [GDSC TCOER](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
+## Application Screenshots [Application Screenshots](https://drive.google.com/drive/folders/1Ki2hQ5OWNM3yD0YDWR6wtCjTSrQBnVeL?usp=sharing)
 
 ## Future Scope 
 This app is used by the Core Team members of GDSC TCOER right now. After proper testing is performed this application will be deployed on Google Play Store. We are planning to integrate chat sessions where the members of the club can interact with the core team members.
