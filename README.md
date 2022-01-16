@@ -13,7 +13,7 @@ We have designed an app "GDSCTCOER" that helps the members of our club to track 
 
 ## **Functionality & Concepts used**
 
-This application has a simple yet interactive interface so that the members could easily interact with this application without any problems. Following are the concepts used in application to provide various functionalities.
+This application has a simple yet interactive interface so that the member's could easily interact with this application without any problems. Following are the concepts used in application to provide various functionalities.
 
 - `Linear Layout`: Aligns the elements in a single direction i.e. vertically or horizontally.
 - `Relative Layout`: Which is specified as relative to sibling elements (such as to the left-of or below another view) .
