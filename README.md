@@ -5,12 +5,11 @@
 An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.
 
 ## **Problem Statement** 
-
-An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.An application that helps the members of our GDSC to keep a track on all the Upcoming Events and Register on time.
+During pandemic, everything is virtual so members are unaware of the on-going activities in the club. Through this app all the club members can easily keep track on the upcoming events, club activities, receive notification when the event is added and receive reminder notification before the schedule time of the event.
 
 ## **Proposed Solution**
 
-We have designed a app "GDSCTCOER" that helps the member's of the club to track the upcoming events. This application was build by keep in mind that the member's should aware of the upcomming events. We have use a Firebase firestore to store the data in the database and firebase storage from storing the image. We have also included some feature's like member's can easy navigate to RSVP link of the Upcoming events by click on the RSVP button,  after the events is completed the watch button will appear it will contain the recording of the event, member's will receive notification whenever the event will added from the back-end and before the time of sechduled event student will recieve a reminder notification . This contains the all information of the club with the social media handle and the information of all the core Team Member's with there social media handle where they can easy connect to the club.  
+We have designed an app "GDSCTCOER" that helps the members of our club to track all the upcoming events. We have used a Firebase firestore to store the data in the database and firebase storage for storing the image. We have also included some features like members can easily navigate to RSVP link of the Upcoming events by clicking on the RSVP button, after the event is completed the watch button will appear which contains the recording of the event, members will receive notification whenever a new event will be added from the back-end and before the time of scheduled event student will receive a reminder notification. This contains all the information related to our club with all our social media handles linked and the information of the entire core Team with their social media handles so that club members can easily connect with them.
 
 ## **Functionality & Concepts used**
 
