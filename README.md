@@ -16,8 +16,8 @@ We have designed a app "GDSCTCOER" that helps the member's of the club to track 
 
 This application has a simple yet interactive interface so that the member's could easily interact with this application without any problems. Following are the concepts used in application to provide functionalities.
 
-- `Linear Layout`: Which align the element in the single direction vertically or horizontally.
-- `Relative Layout`: Which  specified as relative to sibling elements (such as to the left-of or below another view) .
+- `Linear Layout`: Aligns the elements in a single direction i.e. vertically or horizontally.
+- `Relative Layout`: Which is specified as relative to sibling elements (such as to the left-of or below another view) .
 - `Recycler View` : For displaying all the events and the information of the club.
 - `fragments` : Fragment to improve app response time.
 - `Bottom Navigation Bar` : To switch to different fragments easily.
